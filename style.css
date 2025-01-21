@@ -1,0 +1,116 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+ nav{
+    flex: 1; /* Takes up available space */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+.email-icon {
+    text-decoration: none;
+    color:black;
+    margin-left: auto;
+}
+
+.image-container img{
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    padding: 20;
+    margin-bottom: 20;
+    
+
+}
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20;
+
+}
+.image-container img {
+    max-width: 30%;
+    max-height: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+p{
+    text-align: left;
+}
+footer{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+    
+}
+.h1{
+    flex:1;
+    padding:0 20px;
+}
+.text{
+    margin-left:20px;
+    padding-bottom: 5%;
+}
+.about-me {
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: burlywood;
+    padding: 10px;
+    width: 700px;
+    margin-left: 70px;
+}
+
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cv p {
+    margin: 20px 0; /* Add spacing between paragraphs */
+    padding: 15px;
+    border-radius: 8px; /* Optional: Rounded corners for paragraphs */
+    line-height: 1.6; /* Improves readability */
+    font-size: 16px;
+} 
+.cv .section.one {
+    background-color: antiquewhite;
+    color:antiquewhite;
+}
+.cv .section.tow {
+    background-color:aquamarine;
+    color:azure;
+
+}
+.cv .section.three {
+    background-color:chocolate;
+    color:chocolate;
+}
