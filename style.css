@@ -3,84 +3,84 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
- nav{
+
+nav {
     flex: 1; /* Takes up available space */
     display: flex;
     justify-content: center;
-    
-    
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
 }
+
 nav ul li a.active {
     font-weight: bold;
 }
+
 .email-icon {
     text-decoration: none;
-    color:black;
+    color: black;
     margin-left: auto;
 }
 
-.image-container img{
-    max-width: 50%;
-    height: auto;
-    display: flex;
-    justify-content:flex-end ;
-    align-items: center;
-    padding: 20;
-    margin-bottom: 20;
-    
-
-}
 .image-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20;
-
+    margin-bottom: 20px;
 }
+
 .image-container img {
     max-width: 30%;
-    max-height: 100%;
     height: auto;
     margin-bottom: 20px;
 }
-p{
+
+p {
     text-align: left;
+    border: none;
+    margin: 20px 0;
+    padding: 0;
 }
-footer{
+
+footer {
     color: white;
     background-color: grey;
     text-align: center;
     padding: 50px 0;
     margin: 0;
-    
 }
-.h1{
-    flex:1;
-    padding:0 20px;
+
+.h1 {
+    flex: 1;
+    padding: 0 20px;
 }
-.text{
-    margin-left:20px;
+
+.text {
+    margin-left: 20px;
     padding-bottom: 5%;
 }
+
 .about-me {
     font-size: 15px;
     border-radius: 8px;
@@ -94,23 +94,27 @@ footer{
     max-width: 800px;
     margin: 0 auto;
 }
+
 .cv p {
     margin: 20px 0; /* Add spacing between paragraphs */
     padding: 15px;
     border-radius: 8px; /* Optional: Rounded corners for paragraphs */
     line-height: 1.6; /* Improves readability */
     font-size: 16px;
-} 
+    border: none; /* Ensures no black line appears */
+}
+
 .cv .section.one {
     background-color: antiquewhite;
-    color:antiquewhite;
+    color: #333; /* Use a visible text color */
 }
-.cv .section.tow {
-    background-color:aquamarine;
-    color:azure;
 
+.cv .section.two {
+    background-color: aquamarine;
+    color: #000;
 }
+
 .cv .section.three {
-    background-color:chocolate;
-    color:chocolate;
+    background-color: chocolate;
+    color: #fff;
 }
