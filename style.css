@@ -9,12 +9,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border: none; /* Ensure no border on the container */
 }
 
 nav {
-    flex: 1; /* Takes up available space */
+    flex: 1;
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 nav ul {
@@ -48,19 +50,23 @@ nav ul li a.active {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    border: none; /* Ensure no border in the image container */
 }
 
 .image-container img {
     max-width: 30%;
     height: auto;
     margin-bottom: 20px;
+    border: none; /* Remove any borders from images */
 }
 
 p {
     text-align: left;
-    border: none;
     margin: 20px 0;
     padding: 0;
+    border: none; /* Ensure no black border */
+    box-shadow: none; /* Ensure no shadow */
+    background: none; /* Remove any background artifacts */
 }
 
 footer {
@@ -71,42 +77,25 @@ footer {
     margin: 0;
 }
 
-.h1 {
-    flex: 1;
-    padding: 0 20px;
-}
-
-.text {
-    margin-left: 20px;
-    padding-bottom: 5%;
-}
-
-.about-me {
-    font-size: 15px;
-    border-radius: 8px;
-    background-color: burlywood;
-    padding: 10px;
-    width: 700px;
-    margin-left: 70px;
-}
-
 .cv {
     max-width: 800px;
     margin: 0 auto;
+    border: none; /* Ensure no borders on the CV container */
 }
 
 .cv p {
-    margin: 20px 0; /* Add spacing between paragraphs */
+    margin: 20px 0;
     padding: 15px;
-    border-radius: 8px; /* Optional: Rounded corners for paragraphs */
-    line-height: 1.6; /* Improves readability */
+    border: none;
+    box-shadow: none;
+    line-height: 1.6;
     font-size: 16px;
-    border: none; /* Ensures no black line appears */
+    border-radius: 8px;
 }
 
 .cv .section.one {
     background-color: antiquewhite;
-    color: #333; /* Use a visible text color */
+    color: #333;
 }
 
 .cv .section.two {
@@ -117,4 +106,13 @@ footer {
 .cv .section.three {
     background-color: chocolate;
     color: #fff;
+}
+.cv .section.four {
+    background-color: antiquewhite;
+    color:brown;
+}
+
+hr {
+    display: none; /* Hide any horizontal rules */
+    border: none;
 }
